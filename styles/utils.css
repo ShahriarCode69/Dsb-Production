@@ -79,21 +79,6 @@
   border: var(--clr-primary) 2px solid;
 }
 
-.gradient {
-  background: radial-gradient(#2b59c3, #242328 50%);
-  width: 1000px;
-  height: 1000px;
-  position: absolute;
-  left: -500px;
-  top: -500px;
-  opacity: 0;
-  transition: opacity 1s;
-}
-
-.gradient.visible {
-  opacity: 0.6;
-}
-
 .inverse{
   background-color: var(--clr-dark-shade);
   color: var(--clr-dark);
