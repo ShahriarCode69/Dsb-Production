@@ -123,6 +123,7 @@
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-bottom: 3rem;
 }
 
 .works__subtitle {
@@ -144,8 +145,9 @@
 }
 
 .monthly-works__video {
-  width: 420px;
+  width: 100%;
   margin-inline: auto;
+  height: 236px;
 }
 
 
@@ -186,6 +188,7 @@
 
   .monthly-works__video {
     width: 370px;
+    height: 208px;
   }
  }
 
@@ -216,6 +219,7 @@
 
   .monthly-works__video {
     width: 450px;
+    height: 253px;
   }
  }
 
@@ -223,6 +227,7 @@
 @media (min-width: 1280px){
   .monthly-works__video {
     width: 580px;
+    height: 326px;
   }
  }
 
