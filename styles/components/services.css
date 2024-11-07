@@ -252,8 +252,9 @@
 }
 
 .niche-works__video {
-  width: 420px;
+  width: 100%;
   margin-inline: auto;
+  height: 236px;
 }
 
 /* xs  */
@@ -284,6 +285,7 @@
 
   .niche-works__video {
     width: 370px;
+    height: 208px;
   }
  }
 
@@ -307,6 +309,7 @@
 
   .niche-works__video {
     width: 450px;
+    height: 253px;
   }
  }
 
@@ -314,6 +317,7 @@
 @media (min-width: 1280px){
   .niche-works__video {
     width: 580px;
+    height: 326px;
   }
  }
 
