@@ -11,6 +11,7 @@ export default defineConfig({
         services: resolve(__dirname, 'service.html'),
         contact: resolve(__dirname, 'contact.html'),
         faq: resolve(__dirname, 'faq.html'),
+        client1: resolve(__dirname, 'sub-pages/client1.html'),
       },
     },
   },
