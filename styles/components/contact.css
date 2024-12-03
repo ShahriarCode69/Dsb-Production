@@ -107,7 +107,8 @@
 
   .contact__media img{
     max-width: 32rem;
-    border-radius: 10px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
   }
 }
 

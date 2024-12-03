@@ -127,9 +127,12 @@
 }
 
 .works__subtitle {
-  font-size: var(--size-lg);
+  font-size: var(--size-xs);
   color: var(--clr-slate500);
   font-weight: 500;
+  padding-top: 1rem;
+  max-width: 60ch;
+  margin: auto;
 }
 
 .works__title {
@@ -169,10 +172,10 @@
   }
 
   .works__subtitle {
-    font-size: var(--size-xl);
+    font-size: var(--size-base);
     color: var(--clr-slate500);
     font-weight: 500;
-    margin-bottom: 0.5rem;
+    margin-top: 0.5rem;
   }
   
   .works__title {
@@ -199,7 +202,7 @@
     gap: 5rem;
   }
   .works__subtitle {
-    font-size: var(--size-2xl);
+    font-size: var(--size-base);
     color: var(--clr-slate500);
     font-weight: 500;
     margin-bottom: 0.7rem;

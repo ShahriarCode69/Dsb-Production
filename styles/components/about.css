@@ -29,7 +29,8 @@
 
 .about__img {
   width: 20rem;
-  border-radius: 10px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
 }
 
 
@@ -42,7 +43,6 @@
 @media (min-width: 640px) {
   .about__img {
     width: 22rem;
-    border-radius: 10px;
   }
 
   .about__description {

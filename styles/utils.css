@@ -88,7 +88,7 @@
 }
 
 .full-bleed {
-  box-shadow: 0 0 0 100vmax var(--clr-dark-shade);
+  box-shadow: 0 0 0 100vmax #2C1B4360;
   clip-path: inset(0 -100vmax);
 }
 
